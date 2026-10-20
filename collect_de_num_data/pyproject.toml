@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "swiss-german-number-labeling"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = ["accelerate", "datasets", "sentencepiece", "huggingface_hub", "pandas", "pyarrow", "openpyxl", "soundfile", "numpy", "scipy", "scikit-learn", "python-dotenv", "pyyaml", "bitsandbytes>=0.49.2", "transformers>=4.56.0", "vllm==0.26.0"]
+
+[tool.setuptools]
+packages = []

@@ -1,0 +1,24 @@
+{
+  "german-commons": {
+    "repo_id": "i4ds/german_numbers_labeled",
+    "revision": "931f8a01d677f06032386e2dc762aa79d6d700bf",
+    "files": [
+      {
+        "path": "data/german_common_numbers_labeled/train-00000-of-00001.parquet",
+        "sha256": "36ed921c1152099485b81e08d9da1fd1e9354c0fdfaeb4c02d2a855242267604",
+        "bytes": 54761615
+      }
+    ]
+  },
+  "synthetic": {
+    "repo_id": "i4ds/german_numbers_labeled",
+    "revision": "931f8a01d677f06032386e2dc762aa79d6d700bf",
+    "files": [
+      {
+        "path": "data/gemini_3.5_flash_lite_gen_labeled/train-00000-of-00001.parquet",
+        "sha256": "83aae0cb1d6b767612890e23cd4f1286d5b70e420e9a158126e36136c783bf26",
+        "bytes": 1912455
+      }
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+.env
+data/
+logs/
+*.tmp
+*.progress
+config.props

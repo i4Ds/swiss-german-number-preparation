@@ -1,0 +1,3 @@
+[submodule "num2words_CH"]
+	path = num2words_CH
+	url = https://github.com/i4Ds/num2words_CH.git

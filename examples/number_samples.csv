@@ -1,0 +1,21 @@
+client_id,id,sentence_ch,sentence_de
+sg,test_cardinal,Im Lager häts 42 Ersatzteil.,Im Lager befinden sich 42 Ersatzteile.
+sg,test_large_number,SUnternehme beschäftigt 125750 Mitarbeitendi.,Das Unternehmen beschäftigt 125750 Mitarbeiter.
+sg,test_ordinal,Si het de 3. Platz belegt.,Sie belegte den 3. Platz.
+sg,test_decimal,DTemperatur liit bi 18.7 Grad.,Die Temperatur beträgt 18.7 Grad.
+sg,test_negative,Id Nacht isch dTemperatur uf -12 Grad gsunke.,In der Nacht sank die Temperatur auf -12 Grad.
+sg,test_percentage,De Akkustand liit no bi 7.5 Prozent.,Der Akkustand liegt noch bei 7.5 Prozent.
+sg,test_currency_minor,Das choschtet CHF 0.90.,Das kostet CHF 0.90.
+sg,test_currency_major,Das Grät choschtet EUR 1249.50.,Das Gerät kostet EUR 1249.50.
+sg,test_currency_shorthand,De Itritt choschtet CHF 20.–.,Der Eintritt kostet CHF 20.–.
+sg,test_version,Di App brucht mindestens Version v2.4.1.,Die App benötigt mindestens Version v2.4.1.
+sg,test_date,Mir treffed üs am 24.12.2026.,Wir treffen uns am 24.12.2026.
+sg,test_date_without_dot,Das isch am 1 Januar 1974 gsi.,Das war am 1. Januar 1974.
+sg,test_time,De Zug fahrt am 07:35 Uhr ab.,Der Zug fährt um 07:35 Uhr ab.
+sg,test_phone,Rüef mich under +41 79 234 56 78 aa.,Ruf mich unter +41 79 234 56 78 an.
+sg,test_zip,DLieferig goht uf 9000 St. Galle.,Die Lieferung geht nach 9000 St. Gallen.
+sg,test_product_id,Das isch dReihe H45-Kappa.,Das ist die Reihe H45-Kappa.
+sg,test_iban,DIBAN lutet CH93 0076 2011 6238 5295 7.,Die IBAN lautet CH93 0076 2011 6238 5295 7.
+sg,test_range,Es chömed öppe 20–30 Persone.,Es kommen ungefähr 20–30 Personen.
+sg,test_fraction,Mir bruuched 3/4 Liter Milch.,Wir benötigen 3/4 Liter Milch.
+sg,test_math,SResultat vo 25+17 isch 42.,Das Ergebnis von 25+17 ist 42.

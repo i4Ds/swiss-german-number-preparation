@@ -1,0 +1,8 @@
+* text=auto
+*.csv text eol=lf
+*.sh text eol=lf
+*.py text eol=lf
+
+# Preserve literal whitespace in inherited prompts and archived source documentation.
+collect_de_num_data/src/collection/german_commons_numbers.py whitespace=-blank-at-eol
+collect_de_num_data/src/labeling/llm_inference.py whitespace=-blank-at-eol

@@ -1,0 +1,18 @@
+{
+  "source_directory": "collect_de_num_data/data/03_labeled",
+  "canonical_inputs": [
+    {
+      "filename": "qwen3vl_run_01_results.json",
+      "rows": 293942,
+      "sha256": "47813cf8e4595af24941b3c775151704eb42010377af0b506f8d54f7a41dafe0",
+      "bytes": 137383185
+    },
+    {
+      "filename": "synthetic_full_flash_lite_results_checkpoint.jsonl",
+      "rows": 20035,
+      "sha256": "201c72077c576335e0216ad317e520d004bd1f297a0e4c61b63c741281048186",
+      "bytes": 9855400
+    }
+  ],
+  "excluded_duplicate_checkpoint": "qwen3vl_run_01_results_checkpoint.jsonl"
+}

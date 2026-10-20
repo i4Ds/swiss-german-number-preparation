@@ -1,0 +1,237 @@
+{
+  "source_repository": "https://github.com/i4Ds/translator_data_collection_and_prep",
+  "source_commit": "a97f6aa7eda976ca8cb64a62de6cdac2b9b37af1",
+  "includes_current_working_tree_changes": true,
+  "files": [
+    {
+      "source_path": "collect_de_num_data/.gitignore",
+      "destination_path": "collect_de_num_data/.gitignore",
+      "sha256": "27918811eef102e8f09e9d59f693c4e571a1f7a505a741b8f47e675fcf4b47cf"
+    },
+    {
+      "source_path": "collect_de_num_data/Dockerfile",
+      "destination_path": "collect_de_num_data/Dockerfile",
+      "sha256": "7ab729d4bdd10c77e2f68317ade9bb530a28a3b0ee8dbaa32c2d53e201286728"
+    },
+    {
+      "source_path": "collect_de_num_data/README.md",
+      "destination_path": "collect_de_num_data/README.md",
+      "sha256": "a4f5a72397d9dd7c5fa7defbc84df49d1d75f06fc21e55e7644e6e62c27f00d6"
+    },
+    {
+      "source_path": "collect_de_num_data/configs/llm_inference/qwen3vl_run_01.yaml",
+      "destination_path": "collect_de_num_data/configs/llm_inference/qwen3vl_run_01.yaml",
+      "sha256": "cc79b7107fa21646728822ad925a952c751365a092b1683923ba422227a7fcf6"
+    },
+    {
+      "source_path": "collect_de_num_data/pyproject.toml",
+      "destination_path": "collect_de_num_data/pyproject.toml",
+      "sha256": "98c664b541693ee3271b4fabad5d8ebd05f2eff4f66efb93599a45b683fe276a"
+    },
+    {
+      "source_path": "collect_de_num_data/scripts/collection/run_numbers_slurm.sh",
+      "destination_path": "collect_de_num_data/scripts/collection/run_numbers_slurm.sh",
+      "sha256": "b590e5d1da1ae77b40e9f93293fd0385882c636c7ce6f78d1342e00d9901c1c3"
+    },
+    {
+      "source_path": "collect_de_num_data/scripts/install_dependencies.sh",
+      "destination_path": "collect_de_num_data/scripts/install_dependencies.sh",
+      "sha256": "1aad7d5e0bc5a80658fe1ab4fa3ab04d9efbd946ce686f06da950b01abad1197"
+    },
+    {
+      "source_path": "collect_de_num_data/scripts/labeling/convert_ch_numbers.py",
+      "destination_path": "collect_de_num_data/scripts/labeling/convert_ch_numbers.py",
+      "sha256": "3344789bd4e152c1bc9e154c3f5e1998e2b28c634424701adcd7731d794e430e"
+    },
+    {
+      "source_path": "collect_de_num_data/scripts/labeling/generate_prompts.py",
+      "destination_path": "collect_de_num_data/scripts/labeling/generate_prompts.py",
+      "sha256": "26bc5ed9f6eb5d54bb3269fc9539f5747d0c7edf596332b5dc03a64bc37d4360"
+    },
+    {
+      "source_path": "collect_de_num_data/scripts/labeling/generate_synthetic_labeled.py",
+      "destination_path": "collect_de_num_data/scripts/labeling/generate_synthetic_labeled.py",
+      "sha256": "01fd9bad0982738c6ea7cc9c20bd532164a9bb0729b41c9a748f489064530824"
+    },
+    {
+      "source_path": "collect_de_num_data/scripts/labeling/merge_translated_csv_and_json.py",
+      "destination_path": "collect_de_num_data/scripts/labeling/merge_translated_csv_and_json.py",
+      "sha256": "6d22b8e46911c27b135df1a0c186c7cbaaef81a38adb39788fd88c6b26a2174b"
+    },
+    {
+      "source_path": "collect_de_num_data/scripts/labeling/prepare_jsonl.py",
+      "destination_path": "collect_de_num_data/scripts/labeling/prepare_jsonl.py",
+      "sha256": "954ba3d79680077fb71a250f4168e6a3328f9d2308fccf58d62fc286ffc1d339"
+    },
+    {
+      "source_path": "collect_de_num_data/scripts/labeling/run_llm_inference.py",
+      "destination_path": "collect_de_num_data/scripts/labeling/run_llm_inference.py",
+      "sha256": "c452862f3fa4a835adf3531fe617ef460ae5170f745574cd3fe4334233b38074"
+    },
+    {
+      "source_path": "collect_de_num_data/scripts/labeling/run_on_scicore.sh",
+      "destination_path": "collect_de_num_data/scripts/labeling/run_on_scicore.sh",
+      "sha256": "4477ce7171e4af25ca0745dea40df1bc59f1888f3d3483f122b642db4f1e0104"
+    },
+    {
+      "source_path": "collect_de_num_data/scripts/labeling/run_synthetic_full_slurm.sh",
+      "destination_path": "collect_de_num_data/scripts/labeling/run_synthetic_full_slurm.sh",
+      "sha256": "9a59ed0090e30ecf51a281de2adde7fdd9d0c78a1768f96a508c9dfc5bbc4c14"
+    },
+    {
+      "source_path": "collect_de_num_data/scripts/merge_csv_datasets.py",
+      "destination_path": "collect_de_num_data/scripts/merge_csv_datasets.py",
+      "sha256": "2351b7c9ac1728b89e420402cf1f6189572ef4c3e90c531e2e6925ef39f09587"
+    },
+    {
+      "source_path": "collect_de_num_data/scripts/translation/run_translation_on_scicore.sh",
+      "destination_path": "collect_de_num_data/scripts/translation/run_translation_on_scicore.sh",
+      "sha256": "88d37e52ad4957eb8e1b4b6081773f3fee83dccc04f145aa69004c4c76ebfd1b"
+    },
+    {
+      "source_path": "collect_de_num_data/scripts/translation/translate_prepared_csv.py",
+      "destination_path": "collect_de_num_data/scripts/translation/translate_prepared_csv.py",
+      "sha256": "eb8494eb9ae915d9a6128cfdfc09a738106302cb76caa6f4420f836abc1f9c9b"
+    },
+    {
+      "source_path": "collect_de_num_data/scripts/upload_csv_datasets_to_hf.py",
+      "destination_path": "collect_de_num_data/scripts/upload_csv_datasets_to_hf.py",
+      "sha256": "7aa1e2d64d5b663f59c53bdb4a618065dab1ba929d0048d869ebdb90a6304dd1"
+    },
+    {
+      "source_path": "collect_de_num_data/src/collection/german_commons_numbers.py",
+      "destination_path": "collect_de_num_data/src/collection/german_commons_numbers.py",
+      "sha256": "bc029e30cadf985dd0e693bd700b5a750941f90739fb5ec256e17dac006727a1"
+    },
+    {
+      "source_path": "collect_de_num_data/src/collection/text_utils.py",
+      "destination_path": "collect_de_num_data/src/collection/text_utils.py",
+      "sha256": "9e761b2159a3980670e620e4b98634588ad809b13252b24cc338faa2766e15dd"
+    },
+    {
+      "source_path": "collect_de_num_data/src/labeling/llm_inference.py",
+      "destination_path": "collect_de_num_data/src/labeling/llm_inference.py",
+      "sha256": "6c89063742ad21a1dd8f089db09881ea8f10436b47ce484a25ba152607aaa42e"
+    },
+    {
+      "source_path": "collect_de_num_data/src/pipeline_runtime.py",
+      "destination_path": "collect_de_num_data/src/pipeline_runtime.py",
+      "sha256": "063ca792309543e80cac971549c73abba61f4e8ceb411d25dfc72ab435540adc"
+    },
+    {
+      "source_path": "collect_de_num_data/tests/test_chunk_offsets.py",
+      "destination_path": "collect_de_num_data/tests/test_chunk_offsets.py",
+      "sha256": "5ca94a7a68463f689c1b84153d92c08ec59da24d6587550e214ab5c817437e4d"
+    },
+    {
+      "source_path": "collect_de_num_data/tests/test_pipeline_safety.py",
+      "destination_path": "collect_de_num_data/tests/test_pipeline_safety.py",
+      "sha256": "1bfe0974489cd2ac9a047afd2fe97cb042826dea30130e12c059ce4d93c2f1c6"
+    },
+    {
+      "source_path": "collect_de_num_data/tests/test_ratio_and_range_rules.py",
+      "destination_path": "collect_de_num_data/tests/test_ratio_and_range_rules.py",
+      "sha256": "c495aa943da938d242fcb44d68a7c2b3672b9d7fd22e981ce8e24a9f598fec6c"
+    },
+    {
+      "source_path": "preprocess_num_of_datasets/.gitignore",
+      "destination_path": "preprocess_num_of_datasets/.gitignore",
+      "sha256": "403ebac156cfaa7f30c6b63e489d3cc1e7525bb5ef9aaf964487bbaa72b81beb"
+    },
+    {
+      "source_path": "preprocess_num_of_datasets/README.md",
+      "destination_path": "preprocess_num_of_datasets/README.md",
+      "sha256": "71c1bf54d2f912b3ce12608684ac3d5d0715aeae1e48e0bc6c535feefe174bda"
+    },
+    {
+      "source_path": "preprocess_num_of_datasets/configs/fhnw-cu128-overrides.txt",
+      "destination_path": "preprocess_num_of_datasets/configs/fhnw-cu128-overrides.txt",
+      "sha256": "fd688774daf012ebcbded65b001c0ff2efb2098dd7d52e328b9c1a3f28abf625"
+    },
+    {
+      "source_path": "preprocess_num_of_datasets/configs/llm_inference.yaml",
+      "destination_path": "preprocess_num_of_datasets/configs/llm_inference.yaml",
+      "sha256": "bbef54aa8a7104c6b9d1e965731650ceda4c6097c82852dc47f43de4fd5ff85f"
+    },
+    {
+      "source_path": "preprocess_num_of_datasets/configs/local_csv_number_pipeline.yaml",
+      "destination_path": "preprocess_num_of_datasets/configs/local_csv_number_pipeline.yaml",
+      "sha256": "be4263e8b7c597408e48a4cf7cfaa5f119ebd2c547b79c2413850166e0ce1da1"
+    },
+    {
+      "source_path": "preprocess_num_of_datasets/pipeline_runtime.py",
+      "destination_path": "preprocess_num_of_datasets/pipeline_runtime.py",
+      "sha256": "708d707d3576d3e290b8f4cc37f9140929bd4209a7448447ed4a4eb1159318be"
+    },
+    {
+      "source_path": "preprocess_num_of_datasets/scripts/bootstrap_audio_recording_fhnw_fhnw.sh",
+      "destination_path": "preprocess_num_of_datasets/scripts/bootstrap_audio_recording_fhnw_fhnw.sh",
+      "sha256": "7f73e880d7dd07fdd4fd08a6adb85799ee23981fd9a578c9847705a1c9bcf733"
+    },
+    {
+      "source_path": "preprocess_num_of_datasets/scripts/download_audio_recording_fhnw.py",
+      "destination_path": "preprocess_num_of_datasets/scripts/download_audio_recording_fhnw.py",
+      "sha256": "bf31a217962167a349714b033f07fd2323682aefc1928f7bb18f3f736d15a1ca"
+    },
+    {
+      "source_path": "preprocess_num_of_datasets/scripts/preprocess_dataset_numbers.py",
+      "destination_path": "preprocess_num_of_datasets/scripts/preprocess_dataset_numbers.py",
+      "sha256": "c800daf3aa79e2d919c6ac5274a6808fc430264e0556d090bbe7f6f40839cd14"
+    },
+    {
+      "source_path": "preprocess_num_of_datasets/scripts/publish_audio_recording_fhnw.py",
+      "destination_path": "preprocess_num_of_datasets/scripts/publish_audio_recording_fhnw.py",
+      "sha256": "1e4dde8c1c25c16fb7985eca8d948658f9c65d321fa14888c1115ea15a474c6f"
+    },
+    {
+      "source_path": "preprocess_num_of_datasets/scripts/publish_written_number_column.py",
+      "destination_path": "preprocess_num_of_datasets/scripts/publish_written_number_column.py",
+      "sha256": "b5f3502269b12e9c0eb4af5ecb8d22b270742d304bdf93cd322b730d95c2f272"
+    },
+    {
+      "source_path": "preprocess_num_of_datasets/scripts/run_audio_recording_fhnw_fhnw.sh",
+      "destination_path": "preprocess_num_of_datasets/scripts/run_audio_recording_fhnw_fhnw.sh",
+      "sha256": "3832a0608491cba714a5dad9dddb0b35b111d4fb819d3444f5289a3ab8a653ed"
+    },
+    {
+      "source_path": "preprocess_num_of_datasets/scripts/run_local_csv_number_pipeline.py",
+      "destination_path": "preprocess_num_of_datasets/scripts/run_local_csv_number_pipeline.py",
+      "sha256": "56bc4467dca32f7495893faa7c3639e27c0747333e7e7c09fc42e9967a211e98"
+    },
+    {
+      "source_path": "preprocess_num_of_datasets/scripts/run_local_csv_number_pipeline.sh",
+      "destination_path": "preprocess_num_of_datasets/scripts/run_local_csv_number_pipeline.sh",
+      "sha256": "6bcb4b31520b69622ed77f706175184f498a79a60ef8be386858fb8bad4ec7e4"
+    },
+    {
+      "source_path": "preprocess_num_of_datasets/scripts/run_on_scicore.sh",
+      "destination_path": "preprocess_num_of_datasets/scripts/run_on_scicore.sh",
+      "sha256": "b85a71dc23ae187396df947d6fad1d8bb13c6a04a45dfa3d60c0bb4584d73c40"
+    },
+    {
+      "source_path": "preprocess_num_of_datasets/tests/test_audio_publisher.py",
+      "destination_path": "preprocess_num_of_datasets/tests/test_audio_publisher.py",
+      "sha256": "3b80e726f377ee843bf2dd1ac637b68f6e5de72bc338f18aa2ee2a6649818d20"
+    },
+    {
+      "source_path": "preprocess_num_of_datasets/tests/test_fhnw_environment.py",
+      "destination_path": "preprocess_num_of_datasets/tests/test_fhnw_environment.py",
+      "sha256": "32cb2d066b23c53267d1b819b2e9cd71e661411ffc3b5780eebbb101fdb44e67"
+    },
+    {
+      "source_path": "preprocess_num_of_datasets/tests/test_number_postprocessing.py",
+      "destination_path": "preprocess_num_of_datasets/tests/test_number_postprocessing.py",
+      "sha256": "c6b7465dc5b482b680d39dc7a718726d97bf8b6f3535196fc9502bd1f9d1d02d"
+    },
+    {
+      "source_path": "preprocess_num_of_datasets/tests/test_pipeline_safety.py",
+      "destination_path": "preprocess_num_of_datasets/tests/test_pipeline_safety.py",
+      "sha256": "e3cc5fadb99af254e472de386e2fcc674d29e3c2356e3e3eb1d31a90fb4e2f28"
+    },
+    {
+      "source_path": "preprocess_num_of_datasets/tests/test_wikipedia_publisher.py",
+      "destination_path": "preprocess_num_of_datasets/tests/test_wikipedia_publisher.py",
+      "sha256": "f555437f70293580cee8b91487dd78682b27cf8d02a92d1a375aa45b77bb0f56"
+    }
+  ]
+}

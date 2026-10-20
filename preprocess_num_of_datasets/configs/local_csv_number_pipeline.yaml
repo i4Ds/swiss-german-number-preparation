@@ -1,0 +1,18 @@
+input_glob: /path/to/data/raw/*.csv
+output_dir: /path/to/data/processed
+runs_dir: /path/to/data/intermediate/runs
+run_name: local_numbers_v1
+sentence_ch_column: sentence_ch
+sentence_de_column: sentence_de
+id_column: id
+dialect: ch_sg
+batch_size: 100
+issue_flag_column: number_processing_issue
+issue_reason_column: number_processing_issue_reason
+slurm:
+  partition: h200
+  gpu_type: h200
+  gpus: 2
+  cpus: 16
+  memory: 96G
+  time: 1-00:00:00

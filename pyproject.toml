@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "swiss-german-number-preparation"
+version = "0.1.0"
+description = "German number annotation and five-dialect Swiss German verbalisation workflows"
+requires-python = ">=3.10"
+dependencies = ["pandas", "openpyxl", "pyarrow", "datasets", "huggingface_hub", "python-dotenv", "pyyaml", "requests"]
+
+[project.optional-dependencies]
+inference = ["accelerate", "sentencepiece", "soundfile", "numpy", "scipy", "scikit-learn", "bitsandbytes>=0.49.2", "transformers>=4.56.0", "vllm==0.26.0"]
+translation = ["torch", "transformers>=4.56.0", "sentencepiece", "accelerate"]
+
+[tool.setuptools]
+packages = []

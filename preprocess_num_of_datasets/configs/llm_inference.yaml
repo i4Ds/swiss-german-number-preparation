@@ -1,0 +1,22 @@
+model: Qwen/Qwen3-VL-235B-A22B-Instruct-FP8
+
+gpus: 2
+gpu_type: h200
+
+sampling:
+  temperature: 0.1
+  top_p: 0.95
+  max_tokens: 4096
+
+time_limit: "7-00:00:00"
+
+engine:
+  gpu_memory_utilization: 0.9
+  trust_remote_code: true
+  max_model_len: 22000
+
+long_prompt_handling:
+  # Keep input + the 4,096-token response allowance within the 22k context.
+  max_input_tokens: 17904
+  # Bound JSON response size as well as input context size.
+  max_numbers_per_chunk: 40

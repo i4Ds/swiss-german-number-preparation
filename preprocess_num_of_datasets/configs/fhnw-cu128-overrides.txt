@@ -1,0 +1,4 @@
+# vLLM 0.26 defaults to CUDA 13; selecting a PyTorch backend does not change
+# the vLLM wheel. 0.15.0 ships CUDA 12.8 binaries and requires torch==2.9.1.
+# Keep this override local to the FHNW CUDA 12.8 runner.
+vllm==0.15.0

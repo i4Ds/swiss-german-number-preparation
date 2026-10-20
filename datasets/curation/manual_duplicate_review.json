@@ -1,0 +1,747 @@
+{
+  "reviewer": "Codex assistant; each of the 15 candidate pairs inspected individually",
+  "scope": "Select representatives and repair annotations only in the reviewed retained records. Do not modify other records or add previously filtered rows.",
+  "source_revision": "09d7eca047dc40fa7aa14f0dfcd2642b41812077",
+  "rows_before": 275000,
+  "rows_after": 274988,
+  "reviewed_raw_pairs": 15,
+  "published_duplicate_pairs_removed": 12,
+  "corrected_retained_records": 6,
+  "remaining_normalized_duplicate_groups": 0,
+  "normalization": "Unicode casefold, then split/join whitespace; original retained text is not rewritten",
+  "removed_ids": [
+    "german_commons_numbers_118802",
+    "german_commons_numbers_14671",
+    "german_commons_numbers_198658",
+    "german_commons_numbers_252278",
+    "german_commons_numbers_29842",
+    "german_commons_numbers_31182",
+    "german_commons_numbers_46139",
+    "german_commons_numbers_46773",
+    "german_commons_numbers_5429",
+    "german_commons_numbers_6577",
+    "german_commons_numbers_6589",
+    "german_commons_numbers_6847"
+  ],
+  "decisions": [
+    {
+      "pair": 1,
+      "keep": "german_commons_numbers_4383",
+      "other": "german_commons_numbers_6589",
+      "reason": "Equivalent annotations; prefer regular whitespace. In 'am zwanzigsten Tag', am contains dem, so the ordinal has weak masculine dative inflection.",
+      "repair": "weak_ordinal",
+      "published_candidate_ids": [
+        "german_commons_numbers_4383",
+        "german_commons_numbers_6589"
+      ],
+      "removed_id": "german_commons_numbers_6589",
+      "changed_annotations": true,
+      "action": "keep_selected_representative",
+      "before": {
+        "id": "german_commons_numbers_4383",
+        "full_de_text": "Artikel 2 Diese Verordnung tritt am zwanzigsten Tag nach ihrer Veröffentlichung im Amtsblatt der Europäischen Union in Kraft.",
+        "replaced_de_text": "Artikel xax Diese Verordnung tritt am xbx Tag nach ihrer Veröffentlichung im Amtsblatt der Europäischen Union in Kraft.",
+        "sg_de_text": "Artikel zwei Diese Verordnung tritt am zwanzgste Tag nach ihrer Veröffentlichung im Amtsblatt der Europäischen Union in Kraft.",
+        "numbers": [
+          {
+            "number": "2",
+            "value": "\"2\"",
+            "type": "NUMBER_CARDINAL",
+            "start": 8,
+            "end": 9,
+            "placeholder": "xax",
+            "sg_written_form": "zwei",
+            "deklination": null,
+            "genus": null,
+            "kasus": null,
+            "notation": null
+          },
+          {
+            "number": "zwanzigsten",
+            "value": "\"20\"",
+            "type": "NUMBER_ORDINAL",
+            "start": 36,
+            "end": 47,
+            "placeholder": "xbx",
+            "sg_written_form": "zwanzgste",
+            "deklination": "strong",
+            "genus": "maskulin",
+            "kasus": "Dativ",
+            "notation": null
+          }
+        ]
+      },
+      "after": {
+        "id": "german_commons_numbers_4383",
+        "full_de_text": "Artikel 2 Diese Verordnung tritt am zwanzigsten Tag nach ihrer Veröffentlichung im Amtsblatt der Europäischen Union in Kraft.",
+        "replaced_de_text": "Artikel xax Diese Verordnung tritt am xbx Tag nach ihrer Veröffentlichung im Amtsblatt der Europäischen Union in Kraft.",
+        "sg_de_text": "Artikel zwei Diese Verordnung tritt am zwanzgste Tag nach ihrer Veröffentlichung im Amtsblatt der Europäischen Union in Kraft.",
+        "numbers": [
+          {
+            "number": "2",
+            "value": "\"2\"",
+            "type": "NUMBER_CARDINAL",
+            "start": 8,
+            "end": 9,
+            "placeholder": "xax",
+            "sg_written_form": "zwei",
+            "deklination": null,
+            "genus": null,
+            "kasus": null,
+            "notation": null
+          },
+          {
+            "number": "zwanzigsten",
+            "value": "\"20\"",
+            "type": "NUMBER_ORDINAL",
+            "start": 36,
+            "end": 47,
+            "placeholder": "xbx",
+            "sg_written_form": "zwanzgste",
+            "deklination": "weak",
+            "genus": "maskulin",
+            "kasus": "Dativ",
+            "notation": null
+          }
+        ]
+      }
+    },
+    {
+      "pair": 2,
+      "keep": "german_commons_numbers_4551",
+      "other": "german_commons_numbers_6577",
+      "reason": "Same article number and annotation; prefer regular whitespace.",
+      "published_candidate_ids": [
+        "german_commons_numbers_4551",
+        "german_commons_numbers_6577"
+      ],
+      "removed_id": "german_commons_numbers_6577",
+      "changed_annotations": false,
+      "action": "keep_selected_representative"
+    },
+    {
+      "pair": 3,
+      "keep": "german_commons_numbers_4711",
+      "other": "german_commons_numbers_6846",
+      "reason": "Same legal identifier and footnote; prefer regular whitespace. Both records are absent from the published prepared configuration; do not reintroduce filtered OTHER_NUMERIC records.",
+      "published_candidate_ids": [],
+      "removed_id": null,
+      "changed_annotations": false,
+      "action": "already_absent_from_prepared_configuration"
+    },
+    {
+      "pair": 4,
+      "keep": "german_commons_numbers_4715",
+      "other": "german_commons_numbers_6847",
+      "reason": "Same correct month/year DATE and footnote; prefer regular whitespace. Preserve the source fragment without inventing missing context.",
+      "published_candidate_ids": [
+        "german_commons_numbers_4715",
+        "german_commons_numbers_6847"
+      ],
+      "removed_id": "german_commons_numbers_6847",
+      "changed_annotations": false,
+      "action": "keep_selected_representative"
+    },
+    {
+      "pair": 5,
+      "keep": "german_commons_numbers_6079",
+      "other": "german_commons_numbers_5429",
+      "reason": "Same statutory section and paragraph references; prefer regular whitespace. Cardinal readings of these reference numbers are retained.",
+      "published_candidate_ids": [
+        "german_commons_numbers_6079",
+        "german_commons_numbers_5429"
+      ],
+      "removed_id": "german_commons_numbers_5429",
+      "changed_annotations": false,
+      "action": "keep_selected_representative"
+    },
+    {
+      "pair": 6,
+      "keep": "german_commons_numbers_6702",
+      "other": "german_commons_numbers_6703",
+      "reason": "Equivalent fragments; prefer fewer non-breaking spaces. Both records are absent from the published prepared configuration; do not reintroduce their filtered OTHER_NUMERIC reference. The terminal 'vom 27.' is a partial date and cannot be completed from the fragment.",
+      "published_candidate_ids": [],
+      "removed_id": null,
+      "changed_annotations": false,
+      "action": "already_absent_from_prepared_configuration"
+    },
+    {
+      "pair": 7,
+      "keep": "german_commons_numbers_11386",
+      "other": "german_commons_numbers_118802",
+      "reason": "Prefer the sentence-initial capital in the quoted warning. 'seit 1987' is a year reference, so repair its semantic type to DATE.",
+      "repair": "years",
+      "published_candidate_ids": [
+        "german_commons_numbers_11386",
+        "german_commons_numbers_118802"
+      ],
+      "removed_id": "german_commons_numbers_118802",
+      "changed_annotations": true,
+      "action": "keep_selected_representative",
+      "before": {
+        "id": "german_commons_numbers_11386",
+        "full_de_text": "Da die Innereien (Rogen, Magen, Darm und Milch) von Nematoden befallen sein können, ist seit 1987 der Verkauf nur mit dem Zusatz \"Könnte Nematoden enthalten\" in Deutschland gestattet.",
+        "replaced_de_text": "Da die Innereien (Rogen, Magen, Darm und Milch) von Nematoden befallen sein können, ist seit xax der Verkauf nur mit dem Zusatz \"Könnte Nematoden enthalten\" in Deutschland gestattet.",
+        "sg_de_text": "Da die Innereien (Rogen, Magen, Darm und Milch) von Nematoden befallen sein können, ist seit eituusignünhundertsiebeäachzg der Verkauf nur mit dem Zusatz \"Könnte Nematoden enthalten\" in Deutschland gestattet.",
+        "numbers": [
+          {
+            "number": "1987",
+            "value": "\"1987\"",
+            "type": "NUMBER_CARDINAL",
+            "start": 93,
+            "end": 97,
+            "placeholder": "xax",
+            "sg_written_form": "eituusignünhundertsiebeäachzg",
+            "deklination": null,
+            "genus": null,
+            "kasus": null,
+            "notation": null
+          }
+        ]
+      },
+      "after": {
+        "id": "german_commons_numbers_11386",
+        "full_de_text": "Da die Innereien (Rogen, Magen, Darm und Milch) von Nematoden befallen sein können, ist seit 1987 der Verkauf nur mit dem Zusatz \"Könnte Nematoden enthalten\" in Deutschland gestattet.",
+        "replaced_de_text": "Da die Innereien (Rogen, Magen, Darm und Milch) von Nematoden befallen sein können, ist seit xax der Verkauf nur mit dem Zusatz \"Könnte Nematoden enthalten\" in Deutschland gestattet.",
+        "sg_de_text": "Da die Innereien (Rogen, Magen, Darm und Milch) von Nematoden befallen sein können, ist seit nünzäh siebeäachzg der Verkauf nur mit dem Zusatz \"Könnte Nematoden enthalten\" in Deutschland gestattet.",
+        "numbers": [
+          {
+            "number": "1987",
+            "value": "[\"\",\"\",\"1987\"]",
+            "type": "DATE",
+            "start": 93,
+            "end": 97,
+            "placeholder": "xax",
+            "sg_written_form": "nünzäh siebeäachzg",
+            "deklination": null,
+            "genus": null,
+            "kasus": null,
+            "notation": null
+          }
+        ]
+      }
+    },
+    {
+      "pair": 8,
+      "keep": "german_commons_numbers_11842",
+      "other": "german_commons_numbers_14670",
+      "reason": "Only the regular-whitespace record is published. Retain that ID/text and transfer the better interval grouping from the other candidate: 0,2–1,4 is a RANGE. Keep percent signs outside the numeric spans so the units are not dropped; 95 is the integer confidence level.",
+      "repair": "decimal_range",
+      "published_candidate_ids": [
+        "german_commons_numbers_11842"
+      ],
+      "removed_id": null,
+      "changed_annotations": true,
+      "action": "keep_selected_representative",
+      "before": {
+        "id": "german_commons_numbers_11842",
+        "full_de_text": "Eine Studie, die anhand der Daten des Diamond-Princess-Ausbruchs die Letalität in China abschätzte, kam zu dem Ergebnis, der Infizierten-Verstorbenen-Anteil habe 0,6 % betragen (95 %-Konfidenzintervall: 0,2–1,4 %).",
+        "replaced_de_text": "Eine Studie, die anhand der Daten des Diamond-Princess-Ausbruchs die Letalität in China abschätzte, kam zu dem Ergebnis, der Infizierten-Verstorbenen-Anteil habe xax % betragen (xbx %-Konfidenzintervall: xcx–xdx %).",
+        "sg_de_text": "Eine Studie, die anhand der Daten des Diamond-Princess-Ausbruchs die Letalität in China abschätzte, kam zu dem Ergebnis, der Infizierten-Verstorbenen-Anteil habe null Komma sechs % betragen (füfänünzg %-Konfidenzintervall: null Komma zwei–eis Komma vio %).",
+        "numbers": [
+          {
+            "number": "0,6",
+            "value": "[\"0\",\"6\"]",
+            "type": "DECIMAL",
+            "start": 162,
+            "end": 165,
+            "placeholder": "xax",
+            "sg_written_form": "null Komma sechs",
+            "deklination": null,
+            "genus": null,
+            "kasus": null,
+            "notation": null
+          },
+          {
+            "number": "95",
+            "value": "\"95\"",
+            "type": "NUMBER_CARDINAL",
+            "start": 178,
+            "end": 180,
+            "placeholder": "xbx",
+            "sg_written_form": "füfänünzg",
+            "deklination": null,
+            "genus": null,
+            "kasus": null,
+            "notation": null
+          },
+          {
+            "number": "0,2",
+            "value": "[\"0\",\"2\"]",
+            "type": "DECIMAL",
+            "start": 203,
+            "end": 206,
+            "placeholder": "xcx",
+            "sg_written_form": "null Komma zwei",
+            "deklination": null,
+            "genus": null,
+            "kasus": null,
+            "notation": null
+          },
+          {
+            "number": "1,4",
+            "value": "[\"1\",\"4\"]",
+            "type": "DECIMAL",
+            "start": 207,
+            "end": 210,
+            "placeholder": "xdx",
+            "sg_written_form": "eis Komma vio",
+            "deklination": null,
+            "genus": null,
+            "kasus": null,
+            "notation": null
+          }
+        ]
+      },
+      "after": {
+        "id": "german_commons_numbers_11842",
+        "full_de_text": "Eine Studie, die anhand der Daten des Diamond-Princess-Ausbruchs die Letalität in China abschätzte, kam zu dem Ergebnis, der Infizierten-Verstorbenen-Anteil habe 0,6 % betragen (95 %-Konfidenzintervall: 0,2–1,4 %).",
+        "replaced_de_text": "Eine Studie, die anhand der Daten des Diamond-Princess-Ausbruchs die Letalität in China abschätzte, kam zu dem Ergebnis, der Infizierten-Verstorbenen-Anteil habe xax % betragen (xbx %-Konfidenzintervall: xcx %).",
+        "sg_de_text": "Eine Studie, die anhand der Daten des Diamond-Princess-Ausbruchs die Letalität in China abschätzte, kam zu dem Ergebnis, der Infizierten-Verstorbenen-Anteil habe null Komma sechs % betragen (füfänünzg %-Konfidenzintervall: null Komma zwei bis eis Komma vio %).",
+        "numbers": [
+          {
+            "number": "0,6",
+            "value": "[\"0\",\"6\"]",
+            "type": "DECIMAL",
+            "start": 162,
+            "end": 165,
+            "placeholder": "xax",
+            "sg_written_form": "null Komma sechs",
+            "deklination": null,
+            "genus": null,
+            "kasus": null,
+            "notation": null
+          },
+          {
+            "number": "95",
+            "value": "\"95\"",
+            "type": "NUMBER_CARDINAL",
+            "start": 178,
+            "end": 180,
+            "placeholder": "xbx",
+            "sg_written_form": "füfänünzg",
+            "deklination": null,
+            "genus": null,
+            "kasus": null,
+            "notation": null
+          },
+          {
+            "number": "0,2–1,4",
+            "value": "[\"0,2\",\"1,4\"]",
+            "type": "RANGE",
+            "start": 203,
+            "end": 210,
+            "placeholder": "xcx",
+            "sg_written_form": "null Komma zwei bis eis Komma vio",
+            "deklination": null,
+            "genus": null,
+            "kasus": null,
+            "notation": null
+          }
+        ]
+      }
+    },
+    {
+      "pair": 9,
+      "keep": "german_commons_numbers_11843",
+      "other": "german_commons_numbers_14671",
+      "reason": "Identical correct decimal values; prefer regular whitespace before the percent sign.",
+      "published_candidate_ids": [
+        "german_commons_numbers_11843",
+        "german_commons_numbers_14671"
+      ],
+      "removed_id": "german_commons_numbers_14671",
+      "changed_annotations": false,
+      "action": "keep_selected_representative"
+    },
+    {
+      "pair": 10,
+      "keep": "german_commons_numbers_108623",
+      "other": "german_commons_numbers_29842",
+      "reason": "Prefer lower-case adjective in the descriptive term 'ortsanwesende Bevölkerung'. The three values following ab/seit identify years; repair them to DATE.",
+      "repair": "years",
+      "published_candidate_ids": [
+        "german_commons_numbers_108623",
+        "german_commons_numbers_29842"
+      ],
+      "removed_id": "german_commons_numbers_29842",
+      "changed_annotations": true,
+      "action": "keep_selected_representative",
+      "before": {
+        "id": "german_commons_numbers_108623",
+        "full_de_text": "Die Angaben beziehen sich ab 1871 auf die \"ortsanwesende Bevölkerung\", ab 1925 auf die Wohnbevölkerung und seit 1966 auf die \"Bevölkerung am Ort der Hauptwohnung\".",
+        "replaced_de_text": "Die Angaben beziehen sich ab xax auf die \"ortsanwesende Bevölkerung\", ab xbx auf die Wohnbevölkerung und seit xcx auf die \"Bevölkerung am Ort der Hauptwohnung\".",
+        "sg_de_text": "Die Angaben beziehen sich ab eituusigachthunderteinäsiebezg auf die \"ortsanwesende Bevölkerung\", ab eituusignünhundertfüfäzwanzg auf die Wohnbevölkerung und seit eituusignünhundertsechsäsechzg auf die \"Bevölkerung am Ort der Hauptwohnung\".",
+        "numbers": [
+          {
+            "number": "1871",
+            "value": "\"1871\"",
+            "type": "NUMBER_CARDINAL",
+            "start": 29,
+            "end": 33,
+            "placeholder": "xax",
+            "sg_written_form": "eituusigachthunderteinäsiebezg",
+            "deklination": null,
+            "genus": null,
+            "kasus": null,
+            "notation": null
+          },
+          {
+            "number": "1925",
+            "value": "\"1925\"",
+            "type": "NUMBER_CARDINAL",
+            "start": 74,
+            "end": 78,
+            "placeholder": "xbx",
+            "sg_written_form": "eituusignünhundertfüfäzwanzg",
+            "deklination": null,
+            "genus": null,
+            "kasus": null,
+            "notation": null
+          },
+          {
+            "number": "1966",
+            "value": "\"1966\"",
+            "type": "NUMBER_CARDINAL",
+            "start": 112,
+            "end": 116,
+            "placeholder": "xcx",
+            "sg_written_form": "eituusignünhundertsechsäsechzg",
+            "deklination": null,
+            "genus": null,
+            "kasus": null,
+            "notation": null
+          }
+        ]
+      },
+      "after": {
+        "id": "german_commons_numbers_108623",
+        "full_de_text": "Die Angaben beziehen sich ab 1871 auf die \"ortsanwesende Bevölkerung\", ab 1925 auf die Wohnbevölkerung und seit 1966 auf die \"Bevölkerung am Ort der Hauptwohnung\".",
+        "replaced_de_text": "Die Angaben beziehen sich ab xax auf die \"ortsanwesende Bevölkerung\", ab xbx auf die Wohnbevölkerung und seit xcx auf die \"Bevölkerung am Ort der Hauptwohnung\".",
+        "sg_de_text": "Die Angaben beziehen sich ab achzäh einäsiebezg auf die \"ortsanwesende Bevölkerung\", ab nünzäh füfäzwanzg auf die Wohnbevölkerung und seit nünzäh sechsäsechzg auf die \"Bevölkerung am Ort der Hauptwohnung\".",
+        "numbers": [
+          {
+            "number": "1871",
+            "value": "[\"\",\"\",\"1871\"]",
+            "type": "DATE",
+            "start": 29,
+            "end": 33,
+            "placeholder": "xax",
+            "sg_written_form": "achzäh einäsiebezg",
+            "deklination": null,
+            "genus": null,
+            "kasus": null,
+            "notation": null
+          },
+          {
+            "number": "1925",
+            "value": "[\"\",\"\",\"1925\"]",
+            "type": "DATE",
+            "start": 74,
+            "end": 78,
+            "placeholder": "xbx",
+            "sg_written_form": "nünzäh füfäzwanzg",
+            "deklination": null,
+            "genus": null,
+            "kasus": null,
+            "notation": null
+          },
+          {
+            "number": "1966",
+            "value": "[\"\",\"\",\"1966\"]",
+            "type": "DATE",
+            "start": 112,
+            "end": 116,
+            "placeholder": "xcx",
+            "sg_written_form": "nünzäh sechsäsechzg",
+            "deklination": null,
+            "genus": null,
+            "kasus": null,
+            "notation": null
+          }
+        ]
+      }
+    },
+    {
+      "pair": 11,
+      "keep": "german_commons_numbers_31072",
+      "other": "german_commons_numbers_31182",
+      "reason": "Prefer lower-case descriptive adjective in 'des linken Rheinufers'. Both existing year annotations are correct DATE labels.",
+      "published_candidate_ids": [
+        "german_commons_numbers_31072",
+        "german_commons_numbers_31182"
+      ],
+      "removed_id": "german_commons_numbers_31182",
+      "changed_annotations": false,
+      "action": "keep_selected_representative"
+    },
+    {
+      "pair": 12,
+      "keep": "german_commons_numbers_44785",
+      "other": "german_commons_numbers_46139",
+      "reason": "Prefer lower-case descriptive adjective in 'ortsanwesende Bevölkerung'. The three chronological references are years; repair them to DATE.",
+      "repair": "years",
+      "published_candidate_ids": [
+        "german_commons_numbers_44785",
+        "german_commons_numbers_46139"
+      ],
+      "removed_id": "german_commons_numbers_46139",
+      "changed_annotations": true,
+      "action": "keep_selected_representative",
+      "before": {
+        "id": "german_commons_numbers_44785",
+        "full_de_text": "Die Angaben beziehen sich ab 1871 auf die \"ortsanwesende Bevölkerung\", ab 1925 auf die Wohnbevölkerung und seit 1987 auf die \"Bevölkerung am Ort der Hauptwohnung\".",
+        "replaced_de_text": "Die Angaben beziehen sich ab xax auf die \"ortsanwesende Bevölkerung\", ab xbx auf die Wohnbevölkerung und seit xcx auf die \"Bevölkerung am Ort der Hauptwohnung\".",
+        "sg_de_text": "Die Angaben beziehen sich ab eituusigachthunderteinäsiebezg auf die \"ortsanwesende Bevölkerung\", ab eituusignünhundertfüfäzwanzg auf die Wohnbevölkerung und seit eituusignünhundertsiebeäachzg auf die \"Bevölkerung am Ort der Hauptwohnung\".",
+        "numbers": [
+          {
+            "number": "1871",
+            "value": "\"1871\"",
+            "type": "NUMBER_CARDINAL",
+            "start": 29,
+            "end": 33,
+            "placeholder": "xax",
+            "sg_written_form": "eituusigachthunderteinäsiebezg",
+            "deklination": null,
+            "genus": null,
+            "kasus": null,
+            "notation": null
+          },
+          {
+            "number": "1925",
+            "value": "\"1925\"",
+            "type": "NUMBER_CARDINAL",
+            "start": 74,
+            "end": 78,
+            "placeholder": "xbx",
+            "sg_written_form": "eituusignünhundertfüfäzwanzg",
+            "deklination": null,
+            "genus": null,
+            "kasus": null,
+            "notation": null
+          },
+          {
+            "number": "1987",
+            "value": "\"1987\"",
+            "type": "NUMBER_CARDINAL",
+            "start": 112,
+            "end": 116,
+            "placeholder": "xcx",
+            "sg_written_form": "eituusignünhundertsiebeäachzg",
+            "deklination": null,
+            "genus": null,
+            "kasus": null,
+            "notation": null
+          }
+        ]
+      },
+      "after": {
+        "id": "german_commons_numbers_44785",
+        "full_de_text": "Die Angaben beziehen sich ab 1871 auf die \"ortsanwesende Bevölkerung\", ab 1925 auf die Wohnbevölkerung und seit 1987 auf die \"Bevölkerung am Ort der Hauptwohnung\".",
+        "replaced_de_text": "Die Angaben beziehen sich ab xax auf die \"ortsanwesende Bevölkerung\", ab xbx auf die Wohnbevölkerung und seit xcx auf die \"Bevölkerung am Ort der Hauptwohnung\".",
+        "sg_de_text": "Die Angaben beziehen sich ab achzäh einäsiebezg auf die \"ortsanwesende Bevölkerung\", ab nünzäh füfäzwanzg auf die Wohnbevölkerung und seit nünzäh siebeäachzg auf die \"Bevölkerung am Ort der Hauptwohnung\".",
+        "numbers": [
+          {
+            "number": "1871",
+            "value": "[\"\",\"\",\"1871\"]",
+            "type": "DATE",
+            "start": 29,
+            "end": 33,
+            "placeholder": "xax",
+            "sg_written_form": "achzäh einäsiebezg",
+            "deklination": null,
+            "genus": null,
+            "kasus": null,
+            "notation": null
+          },
+          {
+            "number": "1925",
+            "value": "[\"\",\"\",\"1925\"]",
+            "type": "DATE",
+            "start": 74,
+            "end": 78,
+            "placeholder": "xbx",
+            "sg_written_form": "nünzäh füfäzwanzg",
+            "deklination": null,
+            "genus": null,
+            "kasus": null,
+            "notation": null
+          },
+          {
+            "number": "1987",
+            "value": "[\"\",\"\",\"1987\"]",
+            "type": "DATE",
+            "start": 112,
+            "end": 116,
+            "placeholder": "xcx",
+            "sg_written_form": "nünzäh siebeäachzg",
+            "deklination": null,
+            "genus": null,
+            "kasus": null,
+            "notation": null
+          }
+        ]
+      }
+    },
+    {
+      "pair": 13,
+      "keep": "german_commons_numbers_79567",
+      "other": "german_commons_numbers_46773",
+      "reason": "Prefer lower-case descriptive adjective in 'ortsanwesende Bevölkerung'. The four chronological references are years; repair them to DATE.",
+      "repair": "years",
+      "published_candidate_ids": [
+        "german_commons_numbers_79567",
+        "german_commons_numbers_46773"
+      ],
+      "removed_id": "german_commons_numbers_46773",
+      "changed_annotations": true,
+      "action": "keep_selected_representative",
+      "before": {
+        "id": "german_commons_numbers_79567",
+        "full_de_text": "Die Angaben beziehen sich ab 1834 auf die \"Zollabrechnungsbevölkerung\", ab 1871 auf die \"ortsanwesende Bevölkerung\", ab 1925 auf die Wohnbevölkerung und seit 1987 auf die \"Bevölkerung am Ort der Hauptwohnung\".",
+        "replaced_de_text": "Die Angaben beziehen sich ab xax auf die \"Zollabrechnungsbevölkerung\", ab xbx auf die \"ortsanwesende Bevölkerung\", ab xcx auf die Wohnbevölkerung und seit xdx auf die \"Bevölkerung am Ort der Hauptwohnung\".",
+        "sg_de_text": "Die Angaben beziehen sich ab eituusigachthundertvioädriisg auf die \"Zollabrechnungsbevölkerung\", ab eituusigachthunderteinäsiebezg auf die \"ortsanwesende Bevölkerung\", ab eituusignünhundertfüfäzwanzg auf die Wohnbevölkerung und seit eituusignünhundertsiebeäachzg auf die \"Bevölkerung am Ort der Hauptwohnung\".",
+        "numbers": [
+          {
+            "number": "1834",
+            "value": "\"1834\"",
+            "type": "NUMBER_CARDINAL",
+            "start": 29,
+            "end": 33,
+            "placeholder": "xax",
+            "sg_written_form": "eituusigachthundertvioädriisg",
+            "deklination": null,
+            "genus": null,
+            "kasus": null,
+            "notation": null
+          },
+          {
+            "number": "1871",
+            "value": "\"1871\"",
+            "type": "NUMBER_CARDINAL",
+            "start": 75,
+            "end": 79,
+            "placeholder": "xbx",
+            "sg_written_form": "eituusigachthunderteinäsiebezg",
+            "deklination": null,
+            "genus": null,
+            "kasus": null,
+            "notation": null
+          },
+          {
+            "number": "1925",
+            "value": "\"1925\"",
+            "type": "NUMBER_CARDINAL",
+            "start": 120,
+            "end": 124,
+            "placeholder": "xcx",
+            "sg_written_form": "eituusignünhundertfüfäzwanzg",
+            "deklination": null,
+            "genus": null,
+            "kasus": null,
+            "notation": null
+          },
+          {
+            "number": "1987",
+            "value": "\"1987\"",
+            "type": "NUMBER_CARDINAL",
+            "start": 158,
+            "end": 162,
+            "placeholder": "xdx",
+            "sg_written_form": "eituusignünhundertsiebeäachzg",
+            "deklination": null,
+            "genus": null,
+            "kasus": null,
+            "notation": null
+          }
+        ]
+      },
+      "after": {
+        "id": "german_commons_numbers_79567",
+        "full_de_text": "Die Angaben beziehen sich ab 1834 auf die \"Zollabrechnungsbevölkerung\", ab 1871 auf die \"ortsanwesende Bevölkerung\", ab 1925 auf die Wohnbevölkerung und seit 1987 auf die \"Bevölkerung am Ort der Hauptwohnung\".",
+        "replaced_de_text": "Die Angaben beziehen sich ab xax auf die \"Zollabrechnungsbevölkerung\", ab xbx auf die \"ortsanwesende Bevölkerung\", ab xcx auf die Wohnbevölkerung und seit xdx auf die \"Bevölkerung am Ort der Hauptwohnung\".",
+        "sg_de_text": "Die Angaben beziehen sich ab achzäh vioädriisg auf die \"Zollabrechnungsbevölkerung\", ab achzäh einäsiebezg auf die \"ortsanwesende Bevölkerung\", ab nünzäh füfäzwanzg auf die Wohnbevölkerung und seit nünzäh siebeäachzg auf die \"Bevölkerung am Ort der Hauptwohnung\".",
+        "numbers": [
+          {
+            "number": "1834",
+            "value": "[\"\",\"\",\"1834\"]",
+            "type": "DATE",
+            "start": 29,
+            "end": 33,
+            "placeholder": "xax",
+            "sg_written_form": "achzäh vioädriisg",
+            "deklination": null,
+            "genus": null,
+            "kasus": null,
+            "notation": null
+          },
+          {
+            "number": "1871",
+            "value": "[\"\",\"\",\"1871\"]",
+            "type": "DATE",
+            "start": 75,
+            "end": 79,
+            "placeholder": "xbx",
+            "sg_written_form": "achzäh einäsiebezg",
+            "deklination": null,
+            "genus": null,
+            "kasus": null,
+            "notation": null
+          },
+          {
+            "number": "1925",
+            "value": "[\"\",\"\",\"1925\"]",
+            "type": "DATE",
+            "start": 120,
+            "end": 124,
+            "placeholder": "xcx",
+            "sg_written_form": "nünzäh füfäzwanzg",
+            "deklination": null,
+            "genus": null,
+            "kasus": null,
+            "notation": null
+          },
+          {
+            "number": "1987",
+            "value": "[\"\",\"\",\"1987\"]",
+            "type": "DATE",
+            "start": 158,
+            "end": 162,
+            "placeholder": "xdx",
+            "sg_written_form": "nünzäh siebeäachzg",
+            "deklination": null,
+            "genus": null,
+            "kasus": null,
+            "notation": null
+          }
+        ]
+      }
+    },
+    {
+      "pair": 14,
+      "keep": "german_commons_numbers_196178",
+      "other": "german_commons_numbers_198658",
+      "reason": "Prefer the capitalised historical event name 'Zweite Teilung Polens'. Existing DATE labels are correct. Keep both 1807 annotations because they refer to two distinct source occurrences.",
+      "published_candidate_ids": [
+        "german_commons_numbers_196178",
+        "german_commons_numbers_198658"
+      ],
+      "removed_id": "german_commons_numbers_198658",
+      "changed_annotations": false,
+      "action": "keep_selected_representative"
+    },
+    {
+      "pair": 15,
+      "keep": "german_commons_numbers_252280",
+      "other": "german_commons_numbers_252278",
+      "reason": "Prefer the candidate whose existing annotations correctly identify 1922 and 1923 as years (DATE). The capitalisation variation in deutsche/Deutsche is secondary to annotation correctness; preserve the selected source text.",
+      "published_candidate_ids": [
+        "german_commons_numbers_252280",
+        "german_commons_numbers_252278"
+      ],
+      "removed_id": "german_commons_numbers_252278",
+      "changed_annotations": false,
+      "action": "keep_selected_representative"
+    }
+  ]
+}
